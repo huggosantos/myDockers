@@ -1,0 +1,10 @@
+FROM ubuntu:14.04
+MAINTAINER Huggo Santos Oliveira <huggo.oliveira1@gmail.com>
+
+
+RUN apt-get update 
+RUN apt-get install -q -y axel
+RUN axel http://www.syntevo.com/smartgit/download?file=smartgit/smartgit-7_1_2.deb
+RUN dpkg -i smartgit-7_1_2.deb
+
+CMD smartgit
