@@ -6,9 +6,9 @@ USER root
 
 RUN apt-get install -y git
 RUN apt-get update 
+RUN mkdir smartgit
 RUN apt-get install -q -y axel
-RUN axel  http://www.syntevo.com/static/smart/download/smartgit/smartgit-7_1_2.deb
-RUN apt-get clean
-RUN dpkg -i smartgit-7_1_2.deb
+RUN cd smartgit && axel  http://www.syntevo.com/static/smart/download/smartgit/smartgit-7_1_2.deb
+RUN cd smartgit && dpkg -i smartgit-7_1_2.deb
 
 CMD smartgit
