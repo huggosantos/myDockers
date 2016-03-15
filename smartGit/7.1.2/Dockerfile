@@ -1,11 +1,12 @@
 
 FROM huggosantos/jdk8
 MAINTAINER Huggo Santos Oliveira <huggo.oliveira1@gmail.com>
-
+User root
 
 RUN apt-get update 
 RUN apt-get install -q -y axel
 RUN axel http://www.syntevo.com/smartgit/download?file=smartgit/smartgit-7_1_2.deb
+RUN apt-get clean
 RUN dpkg -i smartgit-7_1_2.deb
 
 CMD smartgit
