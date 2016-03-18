@@ -16,8 +16,6 @@ RUN apt-get update && apt-get -y install \
 	--no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/*
 
-RUN apt-get install -y xorg
-
 RUN apt-get update && apt-get install -y git 
 RUN apt-get install -q -y axel
 RUN axel http://www.syntevo.com/static/smart/download/smartgit/smartgit-linux-7_1_2.tar.gz
