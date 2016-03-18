@@ -16,4 +16,4 @@ RUN apt-get install -q -y  ca-certificates ca-certificates-java fontconfig-confi
 RUN apt-get install -q -y fontconfig hicolor-icon-theme libatk1.0-0 libatk1.0-data libcairo2 libdatrie1 libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-common libgraphite2-3 libgtk2.0-0 libgtk2.0-bin libgtk2.0-common libharfbuzz0b libjasper1 libjbig0 libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpixman-1-0 libthai-data libthai0 libtiff5 libxcb-render0 libxcb-shm0 libxcomposite1 libxcursor1 libxdamage1 libxfixes3 libxi6 libxinerama1 libxrandr2 libxrender1 libxtst6 x11-common
 
 
-CMD /smartgit/bin/smartgit
+CMD /smartgit/bin/smartgit.sh
