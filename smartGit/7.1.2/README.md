@@ -1,5 +1,5 @@
 
-to rum 
+to run
 
 xhost +local:docker
 
