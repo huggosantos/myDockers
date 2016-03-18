@@ -20,4 +20,4 @@ RUN apt-get update && apt-get install -q -y axel
 RUN axel https://download.sublimetext.com/sublime-text_build-3103_amd64.deb
 RUN dpkg -i sublime-text_build-3103_amd64.deb
 
-CMD cd /opt/sublime-text && ./sublime-text
+CMD /opt/sublime-text/sublime-text
