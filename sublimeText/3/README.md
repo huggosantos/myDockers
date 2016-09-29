@@ -1,5 +1,5 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/huggosantos/sublimetext.svg?style=flat-square)](https://links.ifbaeunapolis/huggosantos/sublimetext)
-
+[![](https://images.microbadger.com/badges/image/huggosantos/sublimetext.svg)](http://microbadger.com/images/huggosantos/sublimetext "Get your own image badge on microbadger.com")
 
 
 # sublimeText 3
